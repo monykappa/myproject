@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin:0;
+}
+.container{
+    width:100%;
+    position: fixed;
+    background-color: rgb(129, 35, 35);
+    height:50px;
+    font-family: Calibri;
+    font-weight: 500;
+}
+.container marquee{
+    margin-top:1vh;
+    font-size: 30px;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+    position: fixed;
+    
+}
+
+.nav-bar{
+    margin-top:8vh;
+    position: fixed;
+    background-color: rgb(171, 50, 50);
+    height: 10vh;
+    width:100%;
+    font-family: Calibri;
+    font-weight: 500;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.menu-bar ul{
+    margin:2vh 50vh 0vh 0vh;
+    float:right;
+    display: flex;
+    list-style: none;
+}
+.menu-bar li a{
+    text-decoration: none;
+    padding-right: 90px;
+    font-size: 25px;
+    color:#fff;
+    text-shadow: 1px 1px 2px black;
+}
+.menu-bar li a:hover{
+    text-decoration: underline;
+    color:white;
+
+}

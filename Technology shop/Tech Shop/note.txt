@@ -1,0 +1,11 @@
+<div class="col-3">
+                <img src="/">
+                <h3><span></span></h3>
+                <h1><span></span></h1>
+                <p>-<span class="chip"></span><br>
+                    
+                    - Storage : <span class="str"></span><br>
+                   
+                    ------------------------<br>
+                    
+                </p>

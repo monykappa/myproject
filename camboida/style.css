@@ -1,0 +1,111 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    scroll-behavior: smooth;
+    background-color:bisque;
+}
+.nav-bar{
+    margin-top: 2vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+img.logo{
+    margin-left: 13%;
+    border-radius: 10px;
+}
+.menu-bar-left ul{
+    display: flex;
+    float: left;
+    margin:5vh 0vh 0vh 10vh;
+    list-style: none;
+}
+.menu-bar-right ul{
+    display: flex;
+    float: right;
+    margin:5vh 20vh 0vh 0vh;
+    list-style: none;
+}
+.menu-bar-left li a{
+    text-decoration: none;
+    margin:0vh 0vh 0vh 15vh;
+    color:black;
+    padding:2vh;
+    border-radius: 10px;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+.menu-bar-right li a{
+    text-decoration: none;
+    margin:0vh 10vh 0vh 0vh;
+    color:black;
+    padding:2vh;
+    border-radius: 10px;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+.menu-bar-left li a:hover{
+    color:white;
+    background: linear-gradient(180deg, rgba(0,42,162,1) 0%, rgba(0,42,162,1) 25%, rgba(225,0,32,1) 25%, rgba(225,0,32,1) 75%, rgba(0,42,162,1) 75%);   
+}
+.menu-bar-right li a:hover{
+    color:white;
+    background: linear-gradient(180deg, rgba(0,42,162,1) 0%, rgba(0,42,162,1) 25%, rgba(225,0,32,1) 25%, rgba(225,0,32,1) 75%, rgba(0,42,162,1) 75%);
+}
+.welcome{
+    margin:30vh 0vh 0vh 0vh;
+    font-size:30px;
+    width:100%;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    height: 100vh;
+    
+}
+img.bg{
+    width:100%;
+    margin:20vh 0vh 0vh 0vh;
+}
+.main{
+   margin:20vh 10vh 0vh 10vh;
+}
+.image-1{
+    display: flex;
+    margin-bottom:5vh;
+}
+.image-2{
+    display: flex;
+    margin-top:5vh;
+}
+img.img-1{
+    width:30%;
+    margin-right:77vh;
+    border-radius: 80px 80px 4px 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+img.img-2{
+    width:30%;
+    border-radius: 80px 80px 80px 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+img.img-3{
+    width:30%;
+    margin-right:77vh;
+    border-radius: 80px 4px 80px 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+img.img-4{
+    width:30%;
+    float:right;
+    border-radius: 4px 80px 80px 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+img.royal-palace{
+    width:35%;
+    margin-left:63vh;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.nature{
+   text-align: center;
+}

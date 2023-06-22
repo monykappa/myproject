@@ -1,0 +1,199 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-image: url(hi.jpg);
+}
+html{
+    scroll-behavior: smooth;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+
+.social{
+    position: fixed;
+    margin-top: 30%;
+}
+.social ul img{
+    padding-top:6px;
+    width: 35px;
+    display: block;
+}
+.top{
+    position: fixed;
+    margin:42.5% 0% 0% 5%;
+    background-color: transparent;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding:200px 5px 4px 5px;
+    transform: rotateX(170deg);
+    
+}
+.top img{
+    width:40px;
+}
+.down{
+    border-radius: 10px;
+    padding:5px 5px 10px 5px;
+    background-color: transparent;
+    border: 2px solid grey;
+    top:92.5%;
+    right:3%;
+    position: fixed;
+   
+}
+.down img{
+    width:40px;
+}
+.container{
+    border: 3px solid rgba(148, 129, 129, 0.416);
+    background-color: white;
+    width:80%;
+    height:auto;
+    margin-left: 22vh;
+}
+.name{
+    letter-spacing: 9px;
+    font-family: Aldo the Apache;
+    color:white;
+    font-weight: 100;
+    text-shadow: 2px 2px black;
+    position: absolute;
+    margin:14vh 0vh 0vh 74vh;
+}
+.name h1{
+    font-size: 60px;
+    padding-left:8vh;
+}
+.name h3{
+    
+    font-size: 40px;
+}
+marquee{
+    font-size:35px;
+    font-family: JetBrains Mono;
+    font-weight: 700;
+    color:rgb(252, 80, 80);
+    text-shadow: 2px 2px 3px black;
+    border-bottom: 2px dashed darkslategrey;
+    padding:20px 20px;
+}
+.menu-bar ul{
+    margin-top:7vh;
+    display: flex;
+    list-style: none;
+    margin-left:15vh;
+}
+.menu-bar li {
+    padding-right:5vh;
+}
+.menu-bar a{
+    font-size: 20px;
+    font-family: JetBrains Mono;
+    font-weight: bold;
+    color:#fff;
+    text-shadow: 2px 2px 3px black;
+    border-radius: 15px;
+    background: linear-gradient(90deg, rgba(198,38,170,1) 28%, rgba(70,36,144,1) 87%);
+    padding:5px 15px 5px 15px;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+.menu-bar a:hover{
+    text-decoration: underline;
+    text-shadow: none;
+}
+.banner h1{
+    color:white;
+    text-shadow: 2px 2px 3px black;
+    background: linear-gradient(90deg, rgba(198,172,193,1) 28%, rgba(90,64,93,1) 87%);
+    margin-top:10vh;
+    width: 100%;
+    text-align: center;
+    border-radius: 0px;
+    padding:20px 0px 20px 0px;
+    font-family: Aldo the Apache;
+    letter-spacing: 3px;
+    word-spacing: 20px;
+}
+
+
+
+/* footer */
+.footer{
+    margin-top:15vh;
+    background: rgba(63, 54, 63, 0.947);
+    height: 30vh;
+}
+.container-1{
+    font-size: 13px;
+    color:rgb(248, 238, 238);
+    padding-top: 5vh;
+    padding-left:20vh;
+    font-family: Aldo the Apache;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    letter-spacing: 5px;
+}
+.container-2{
+    padding-top:3vh;
+    padding-left:20vh;
+}
+.container-2 a{
+    color:rgb(235, 235, 235);
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'popins', sans-serif;
+}
+.container-2 a:hover{
+    text-decoration: underline;
+}
+.form{
+    float: right;
+    padding-top:2vh;
+    padding-right:24vh;
+}
+.form h1{
+    font-size: 20px;
+    padding-left:8vh;
+    padding-bottom: 5px;
+    color: white;1px black;
+}
+.form input{
+    display: block;
+    padding:10px 10px 10px 10px;
+    border-radius: 20px;
+    outline: none;
+    border:1px solid rgb(91, 84, 84);
+    font-family: 'popins', sans-serif;
+    
+}
+.form input::placeholder{
+    font-family: 'popins', sans-serif;
+    font-style: italic;
+}
+.input-1{
+    margin-bottom:5px;  
+}
+.btn{
+    margin-top:1vh;
+    margin-left:1vh;
+    padding:5px 5px 5px 5px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    background-color: white;
+}
+.btn:hover{
+    text-decoration: underline;
+    color:red;
+}
+/* end footer */

@@ -1,0 +1,192 @@
+{*
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.menu .logo{
+    margin-top:5%;
+    margin-left:46%;
+    position: absolute;
+}
+body{
+    background: rgb(215, 236, 240);
+}
+.menu{
+    display: flex;
+}
+.first-menu{
+    display: flex;
+    margin-top:8%;
+    left:10%;
+    position: absolute;
+    
+}
+.first-menu li a {
+    color: rgb(173, 22, 22);
+    text-shadow: 1px 1px black;
+    font-family: Captain Howdy;
+    font-size: 30px;
+    text-decoration: none;
+    padding-right:120px;
+    transition: 0.5s, 0.5s;
+}
+.first-menu li a:hover{
+    color:rgb(31, 72, 206);
+}
+nav ul{
+    list-style: none;
+    
+}
+.second-menu{
+    display: flex;
+    margin-top:8%;
+    position: absolute;
+    left:50%;
+}
+.second-menu li a{
+    text-shadow: 1px 1px black;
+    color: rgb(173, 22, 22);
+    font-family: Captain Howdy;
+    font-size: 30px;
+    text-decoration: none;
+    padding-left:120px;
+    transition: 0.5s, 0.5s;
+}
+.second-menu li a:hover{
+    color:rgb(31, 72, 206);
+}
+.players h1{
+    text-shadow: 1px 1px grey;
+    font-size: 40px;
+    text-align: center;
+    margin-top:10%;
+    margin-bottom:0;
+    font-family: Captain Howdy;
+}
+.players h2{
+    text-align: center;
+    margin-top:10%;
+    font-size: 30px;
+    text-shadow: 1px 1px grey;
+    font-family: Captain Howdy;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* start player */
+.player{
+    margin-left:5%;
+    margin-top:15%;
+    display:flex;
+   
+}
+.player img{
+    width:80%;
+    border:3px solid grey;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.player h1{
+    text-shadow: 1px 1px grey;
+    font-size:24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.player h2{
+    text-shadow: 1px 1px black;
+    font-size: 20px;
+    font-weight: 900;
+    color:blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.player h3{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    
+}
+.player h3 span{
+    color:red;
+}
+/* end player */
+
+
+/*player-1 */
+.player-1{
+    margin-left:5%;
+    margin-top:15%;
+    display:flex;
+   
+}
+.player-1 img{
+    width:80%;
+    border:3px solid grey;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.player-1 h1{
+    text-shadow: 1px 1px grey;
+    font-size:24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.player-1 h2{
+    text-shadow: 1px 1px black;
+    font-size: 20px;
+    font-weight: 900;
+    color:blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.player-1 h3{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    
+}
+.player-1 h3 span{
+    color:red;
+}
+/* end player-1 */
+
+/* start player-2 */
+.player-2{
+    margin-left:5%;
+    margin-top:15%;
+    display:flex;
+   
+}
+.player-2 img{
+    width:70%;
+    border:3px solid grey;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.player-2 h1{
+    text-shadow: 1px 1px grey;
+    font-size:24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.player-2 h2{
+    text-shadow: 1px 1px black;
+    font-size: 20px;
+    font-weight: 900;
+    color:blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.player-2 h3{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    
+}
+.player-2 h3 span{
+    color:red;
+}

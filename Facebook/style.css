@@ -1,0 +1,97 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color:aliceblue;
+    
+}
+.left-ctn{
+    position: absolute;
+    margin-top:22vh;
+    margin-left:9vh;
+    width:500px;
+}
+.left-ctn h1{
+    font-size: 25px;
+    margin-left:5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.container{
+    border-radius: 5px;
+    float: right;
+    margin-right:25vh;
+    margin-top:20vh;
+    background-color: white;
+    width:415px;
+    height: 350px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+input{
+    display: flex;
+    width:350px;
+    height: 40px;
+    margin-bottom: 2vh;
+    border-radius: 5px;
+    padding-left:2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border:1px solid grey;
+    outline:none;
+    
+}
+form input::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.login{
+    margin-top:4vh;
+    margin-bottom: 4vh;
+    margin-left:5vh;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color:white;
+    border-radius: 5px;
+    border:0;
+    outline:none;
+    width:365px;
+    height: 39px;
+    outline:none;
+    background-color: rgb(26, 149, 236);
+ }
+ button:hover{
+    background-color: rgba(30, 109, 155, 0.854);
+ }
+ .forgot a{
+    position: absolute;
+    margin:2vh 0vh 0vh 20vh;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+ }
+.line{
+    margin:10vh 5vh 5vh 5vh;
+}
+.create-acc{
+    margin-left:18vh;
+    padding:0vh;
+    border-radius: 5px;
+}
+.create-acc button{
+    width:200px;
+    height: 50px;
+    background-color: rgb(36, 163, 36);
+    text-decoration: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.create-acc button:hover{
+    background-color: rgb(36, 134, 36);
+}
